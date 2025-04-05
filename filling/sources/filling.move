@@ -1,4 +1,3 @@
-
 /// Module: filling
 module filling::filling;
 use sui::table::{Self, Table};
@@ -9,7 +8,7 @@ const EProfileExist: u64 = 1;
 
 public struct State has key {
     id: UID,
-    users: Table<address, address>,
+    users: Table<address, address>, // owner address -> profile object address
 }
 
 public struct Profile has key {
