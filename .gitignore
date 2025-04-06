@@ -3,3 +3,6 @@
 */Move.lock
 */node_modules
 .vscode
+*/target
+sui_rust_demo/target/
+
